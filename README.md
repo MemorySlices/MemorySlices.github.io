@@ -1,2 +1,1 @@
 # MemorySlices.github.io
-Homepage

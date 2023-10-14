@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://xiuyuli.netlify.app.com/* https://www.xiuyuli.com/:splat 301!
+
+# Rewrite blog subdirectory to host subdomain
+/blog/* https://blog.xiuyuli.com/blog/:splat 200!
