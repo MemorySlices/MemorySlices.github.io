@@ -142,13 +142,35 @@
 
 	<!-- Publications -->
 	<div class="container" style="font-size: 16px">
-		<h2 id="Selected Publications" style="padding-top: 90px; margin-top: -80px; margin-bottom: 0.1em">Publications </h2>
+		<h2 id="Selected Publications" style="padding-top: 90px; margin-top: -80px; margin-bottom: 0.1em">Selected Publications </h2>
 		<font style="font-size: 16px;" color="black">(* indicates equal contribution)</font>
 		<hr style="margin-top:0.4em">
 
 		<div class="row">
 			<div class="col-md-3">
-				<img class="img-thumbnail" src="static/Pipeline.png" alt="">
+				<img class="img-thumbnail" src="static/WAFT.png" alt="">
+			</div>
+			<div class="col-md-9">
+				<font style="font-size: 18px;" color="black"><strong>WAFT: Warping-Alone Field Transforms for Optical Flow<!-- Place this tag where you want the button to render. -->
+					<a class="github-button" href="https://github.com/princeton-vl/WAFT" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star princeton-vl/WAFT on GitHub">Star</a></strong><br></font>
+				<span><u>Yihan Wang</u></span>,
+				<span>Jia Deng</span>
+				<br> arXiv:2506.21526 <br>
+				[<a href="javascript:void(0)" onclick="display('WAFT-abs')">abs</a>]&nbsp;
+				[<a target="_blank" href="https://arxiv.org/abs/2506.21526">arXiv</a>]&nbsp;
+				[<a target="_blank" href="https://github.com/princeton-vl/WAFT">code</a>]
+				<br>
+				<div id="WAFT-abs" style="display:none">
+					<p>
+						We introduce Warping-Alone Field Transforms (WAFT), a simple and effective method for optical flow. WAFT is similar to RAFT but replaces cost volume with high-resolution warping, achieving better accuracy with lower memory cost. This design challenges the conventional wisdom that constructing cost volumes is necessary for strong performance. WAFT is a simple and flexible meta-architecture with minimal inductive biases and reliance on custom designs. Compared with existing methods, WAFT ranks 1st on Spring and KITTI benchmarks, achieves the best zero-shot generalization on KITTI, while being up to 4.1x faster than methods with similar performance.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-thumbnail" src="static/SEA-RAFT.png" alt="">
 			</div>
 			<div class="col-md-9">
 				<font style="font-size: 18px;" color="black"><strong>SEA-RAFT: Simple, Efficient, Accurate RAFT for Optical Flow<!-- Place this tag where you want the button to render. -->
