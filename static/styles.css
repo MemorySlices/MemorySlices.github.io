@@ -140,6 +140,7 @@ a:focus-visible, .term-help-button:focus-visible {
 
 #contact { margin-top: 44px; font-size: 18px; }
 #contact p + p { margin-top: 10px; }
+#contact .site-credit { margin-top: 24px; font-size: 14px; color: #666; }
 .email { overflow-wrap: anywhere; }
 
 @media (max-width: 760px) {
